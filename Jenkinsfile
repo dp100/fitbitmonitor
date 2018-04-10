@@ -9,7 +9,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("http://172.17.0.1:5000/fitbitmonitor")
+        app = docker.build("fitbitmonitor")
     }
 
 /*    stage('Test image') {
